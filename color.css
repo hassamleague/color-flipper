@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: rgb(5,2,230);
+    background: linear-gradient(131deg, rgba(5,2,230,1) 17%, rgba(255,0,206,1) 38%, rgba(176,225,94,1) 59%, rgba(0,236,255,1) 78%); 
+}
+
+.div{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+button{
+    padding:15px 180px ;
+    background-color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    border: none;
+}
+
+button:hover{
+    background: rgb(5,2,230);
+    background: linear-gradient(131deg, rgba(5,2,230,1) 17%, rgba(255,0,206,1) 38%, rgba(176,225,94,1) 59%, rgba(0,236,255,1) 78%);
+color: white;
+border: none;
+}
+
+button:active{
+    background-color: white;
+    background: rgb(5,2,230);
+    background: linear-gradient(131deg, rgba(5,2,230,1) 17%, rgba(255,0,206,1) 38%, rgba(176,225,94,1) 59%, rgba(0,236,255,1) 78%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+border: 2px solid black;
+}
+
